@@ -1,0 +1,161 @@
+* {
+  font-family: 'Open Sans';
+}
+:root {
+  --nav_color: rgba(0, 0, 0, 0.922);
+  --special-color: rgba(250, 58, 0, 0.902);
+  --primary-color: white;
+  --background-color: #fff8f3;
+  --text-color: rgba(0, 48, 43, 0.843);
+  --title-color: rgba(59, 0, 60, 0.893);
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 10%;
+}
+#nav h3 {
+  font-family: 'Open Sans', serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 25px;
+  color: var(--title-color);
+  font-variation-settings: 'wdth' 100;
+}
+#nav h3 .orange {
+  color: var(--special-color);
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  font-weight: 500;
+  font-size: 17px;
+  list-style: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.option a {
+  color: var(--nav_color);
+  text-decoration: none;
+}
+.btn {
+  background: var(--special-color);
+  color: var(--primary-color);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Open Sans';
+  padding: 10px 25px;
+  text-align: center;
+}
+#header {
+  background: url(../images/dev2.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom left, bottom right;
+  margin: 0 50px 0;
+  background-color: var(--background-color);
+  /* background-size: 50px; */
+}
+/* banner style */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin: 20px 35px 0 200px;
+}
+.banner-content {
+  padding: 20px;
+  max-width: 520px;
+}
+.banner-greetings {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: 'fira code';
+  margin-bottom: -18px;
+  color: var(--text-color);
+}
+.banner-title {
+  font-size: 38px;
+  font-weight: 900;
+  color: var(--title-color);
+  font-family: 'Lato', serif;
+}
+.banner-description {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'fira code';
+  margin-top: -18px;
+}
+.banner-content .btn {
+  margin: 0 12px 0;
+}
+.my-image {
+  max-width: 380px;
+}
+.section-title , .skill-heading {
+  font-size: 35px;
+  font-weight: bold;
+  color: rgba(0, 0, 26, 0.992);
+  margin-bottom: -5px;
+}
+.section-description, .skill-description {
+  font-weight: 600;
+  font-size: 15px;
+  line-break: 15px;
+}
+.about-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+.item-title {
+  font-weight: 500;
+  font-size: medium;
+  color: var(--text-color);
+}
+.item-description {
+  font-weight: 700;
+  font-size: medium;
+  color: var(--title-color);
+}
+.about {
+  text-align: center;
+  background: var(--background-color);
+  padding: 80px 115px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+.main {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+/* skills section */
+.skills{
+  display: flex; justify-content: start; align-items: center; gap: 15px; padding: 20px;
+  /* background: lightcoral; */
+}
+.skill{
+  text-align: center;
+  width: 200px; height: 250px;
+  box-shadow:10px 10px 5px 5px whitesmoke;
+  background: white; border-radius: 10px; padding: 5px;
+}
+.my-skills{
+  background:rgba(255, 241, 241, 0.629);  text-align: center; 
+}
+.resumes{
+  display: grid; grid-template-columns:400px 400px;
+  justify-content:center; align-items: center;gap: 30px;
+}
+.resume{
+   
+}
